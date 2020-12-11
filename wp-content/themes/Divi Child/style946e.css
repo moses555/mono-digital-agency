@@ -1,0 +1,933 @@
+/*
+ Theme Name:   Oddo
+ Description:  Divi Child Theme
+ Author:       Tommy Oddo
+ Author URI:   https://www.oddodesign.com
+ Template:     Divi
+ Version:      1.0.0
+ Text Domain:  oddo
+*/
+
+
+/* CUSTOM HEADER - THEME BUILDER
+---------------------------------------------------------------------------------------------------- */
+.home.et-tb-has-header #page-container {
+  padding-top: 93px;
+}
+
+.et-tb-has-header #page-container {
+  padding-top: 118px;
+}
+
+body.admin-bar #oddo-header-section {
+  padding-top: 32px;
+}
+
+header #oddo-header-section {}
+header #oddo-header-section .oddo-header-row-top {}
+header #oddo-header-section .oddo-header-row-top .oddo-header-column-1 {}
+header #oddo-header-section .oddo-header-row-top .oddo-header-column-2 {}
+
+@media only screen and ( max-width: 980px ) {
+
+  .home.et-tb-has-header #page-container {
+    padding-top: 85px !important;
+  }
+
+  .et-tb-has-header #page-container {
+    padding-top: 110px !important;
+  }
+
+  .home .et-tb-has-header #page-container {
+    padding-top: 0 !important;
+  }
+
+  header #oddo-header-section .oddo-header-row-top .oddo-header-column-1 {
+    margin-bottom: 0;
+  }
+
+  header #oddo-header-section .oddo-header-row-top .oddo-header-column-2 {
+    max-width: 300px !important;
+  }
+
+  header #oddo-header-section .oddo-header-row-bottom .oddo-header-column-1.et-last-child {
+    max-width: 100% !important;
+  }
+
+  header #oddo-header-section .mobile_nav .mobile_menu_bar:before {
+    color: #8e8e8c;
+  }
+
+  header #oddo-header-section .mobile_nav ul.et_mobile_menu {
+    border-top: none !important;
+    background-color: #3a3b3b !important;
+  }
+
+  header #oddo-header-section .mobile_nav ul.et_mobile_menu li a:hover,
+  header #oddo-header-section .mobile_nav ul.et_mobile_menu li.current_page_item a,
+  header #oddo-header-section .mobile_nav ul.et_mobile_menu li.current-page-ancestor a {
+    background-color: #2e2e2e !important;
+  }
+
+}
+
+@media only screen and ( max-width: 767px ) {
+
+  .et-tb-has-header #page-container {
+    padding-top: 100px !important;
+  }
+
+  .home.et-tb-has-header #page-container {
+    /* padding-top: 96px !important; */
+    padding-top: 78px !important;
+  }
+
+}
+
+@media only screen and ( max-width: 497px ) {
+
+}
+
+/* body.admin-bar header #oddo-header-section {
+  top: 32px;
+} */
+
+@media only screen and ( max-width: 780px ) {
+  body.admin-bar header #oddo-header-section {
+    top: 46px;
+  }
+}
+
+header #oddo-header-section a {
+  transition-property: none;
+}
+
+header #oddo-header-section a:hover {
+  opacity: 1;
+  color: #e2e2e1 !important;
+}
+
+header #oddo-header-section .et_pb_text_inner {
+  letter-spacing: 2px;
+}
+
+.home header #oddo-header-section .et_pb_image {
+  visibility: hidden;
+}
+
+.home header #oddo-header-section .et_pb_text_inner {
+  display: none;
+}
+
+/* HEADER - STANDARD DIVI HEADER?
+---------------------------------------------------------------------------------------------------- */
+#main-header.et-fixed-header,
+#main-header {
+  box-shadow: none !important;
+}
+
+/* custom header in Theme Builder */
+body header #menu-header-menu .current-page-ancestor a,
+
+/* blog single - custom header in Theme Builder */
+body.single-post header #menu-header-menu .menu-item-139 a {
+  color: #fff !important;
+}
+
+@media only screen and ( max-width: 980px ) {
+
+
+  #main-content .oddo-section-menu .et_pb_menu__menu {
+    display: block;
+  }
+
+  #main-content .oddo-section-menu .et_pb_menu__menu a {
+    font-size: 14px !important;
+  }
+
+  #main-content .oddo-section-menu .et_mobile_nav_menu {
+    display: none;
+  }
+
+}
+
+/* HEADER - NAV MENU TWEAKS
+---------------------------------------------------------------------------------------------------- */
+/* Work
+--------------------------------------------- */
+body.page-id-11277 footer li.menu-item-12814 a, /* /gvec-net/ */
+body.page-id-11266 footer li.menu-item-12814 a, /* /advance-components/ */
+body.page-id-11260 footer li.menu-item-12814 a, /* /pruvan/ */
+body.page-id-11259 footer li.menu-item-12814 a, /* /gvec/ */
+body.page-id-11273 footer li.menu-item-12814 a, /* /beth-sanders-moore/ */
+body.page-id-11264 footer li.menu-item-12814 a, /* /sandia-pediatric-dentistry/ */
+body.page-id-11262 footer li.menu-item-12814 a, /* /walker-county-ace-hardware/ */
+body.page-id-11280 footer li.menu-item-12814 a, /* /tactical-response-resources/ */
+body.page-id-11278 footer li.menu-item-12814 a, /* /fhanewsblog/ */
+body.page-id-11271 footer li.menu-item-12814 a, /* /life-guardian-alerts/ */
+body.page-id-11494 footer li.menu-item-12814 a, /* /wpsimplifyd/ */
+body.page-id-11462 footer li.menu-item-12814 a /* /oddo-design-retro/ */ {
+  color: #fff !important;
+}
+
+/* Services - Custom Websites
+--------------------------------------------- */
+body.page-id-11605 header li.menu-item-122 a, /* /custom-websites/ */
+body.page-id-11605 footer li.menu-item-12813 a,
+
+body.page-id-11610 header li.menu-item-122 a, /* /custom-websites/process/ */
+body.page-id-11610 footer li.menu-item-12813 a,
+body.page-id-11610 footer li.menu-item-12808 a,
+
+body.page-id-11614 header li.menu-item-122 a, /*custom-websites/pricing/ */
+body.page-id-11614 footer li.menu-item-12813 a,
+body.page-id-11614 footer li.menu-item-12808 a,
+
+body.page-id-11622 header li.menu-item-122 a, /* /custom-websites/lets-talk/ */
+body.page-id-11622 footer li.menu-item-12813 a,
+body.page-id-11622 footer li.menu-item-12808 a,
+
+body.page-id-12860 header li.menu-item-122 a, /* /custom-websites/lets-talk/talk-soon/ */
+body.page-id-12860 footer li.menu-item-12813 a,
+body.page-id-12860 footer li.menu-item-12808 a {
+  color: #fff !important;
+}
+
+/* Services - WordPress Customization
+--------------------------------------------- */
+body.page-id-11806 header li.menu-item-122 a, /* /wordpress-customization/ */
+body.page-id-11806 footer li.menu-item-12813 a,
+
+body.page-id-11832 header li.menu-item-122 a, /* /wordpress-customization/process/ */
+body.page-id-11832 footer li.menu-item-12813 a,
+body.page-id-11832 footer li.menu-item-12809 a,
+
+body.page-id-11838 header li.menu-item-122 a, /* /wordpress-customization/pricing/ */
+body.page-id-11838 footer li.menu-item-12813 a,
+body.page-id-11838 footer li.menu-item-12809 a,
+
+body.page-id-11840 header li.menu-item-122 a, /* /wordpress-customization/lets-talk/ */
+body.page-id-11840 footer li.menu-item-12813 a,
+body.page-id-11840 footer li.menu-item-12809 a,
+
+body.page-id-12869 header li.menu-item-122 a, /* /wordpress-customization/lets-talk/talk-soon/ */
+body.page-id-12869 footer li.menu-item-12813 a,
+body.page-id-12869 footer li.menu-item-12809 a {
+  color: #fff !important;
+}
+
+/* Services - WordPress Maintenance
+--------------------------------------------- */
+body.page-id-11886 header li.menu-item-122 a, /* /wordpress-maintenance/ */
+body.page-id-11886 footer li.menu-item-12813 a {
+  color: #fff !important;
+}
+
+/* Services - WordPress Support
+--------------------------------------------- */
+body.page-id-11913 header li.menu-item-122 a, /* /wordpress-support/ */
+body.page-id-11913 footer li.menu-item-12813 a,
+body.page-id-12921 header li.menu-item-122 a, /* /wordpress-support/lets-talk */
+body.page-id-12921 footer li.menu-item-12813 a,
+body.page-id-12921 footer li.menu-item-12811 a,
+body.page-id-12925 header li.menu-item-122 a, /* /wordpress-support/lets-talk/talk-soon/ */
+body.page-id-12925 footer li.menu-item-12813 a,
+body.page-id-12925 footer li.menu-item-12811 a  {
+  color: #fff !important;
+}
+
+/* Services
+--------------------------------------------- */
+body.page-id-11920 header li.menu-item-122 a, /* /website-audit-service/ */
+body.page-id-13419 header li.menu-item-122 a,
+body.page-id-11920 footer li.menu-item-12813 a {
+  color: #fff !important;
+}
+
+/* FOOTER
+---------------------------------------------------------------------------------------------------- */
+.oddo-footer-menu ul {
+  flex-direction: column;
+}
+
+.oddo-footer-menu ul li a {
+  padding-bottom: 0 !important;
+}
+
+.oddo-footer-menu .oddo-footer-menu-indent a {
+  padding-left: 12px;
+  text-transform: none !important;
+  padding-bottom: 0 !important;
+}
+
+.oddo-footer-birdseed p {
+  font-size: 12px !important;
+  text-align: center;
+}
+
+@media (max-width: 980px) {
+
+  .oddo-footer-menu .et_mobile_nav_menu {
+    display: none;
+  }
+
+  .oddo-footer-menu .et_pb_menu__menu {
+    display: flex;
+  }
+
+  .oddo-footer-upper .et_pb_column {
+      width: 48.5% !important;
+    }
+
+  }
+
+@media ( max-width: 767px ) {
+
+  .oddo-footer-menu nav ul,
+  .oddo-footer-menu .et_pb_menu__wrap {
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .oddo-footer-upper .et_pb_column {
+    width: 100% !important;
+  }
+
+  .oddo-footer-upper .et_pb_column h2 {
+    text-align: center;
+  }
+
+}
+
+ul.oddo-social-icons,
+ul.oddo-social-icons {
+  padding: 0 0 23px 0;
+}
+
+ul.oddo-social-icons {
+  text-align: center;
+}
+
+ul.oddo-social-icons li::before,
+ul.oddo-social-icons li::before {
+	display: none;
+}
+
+ul.oddo-social-icons li,
+ul.oddo-social-icons li {
+	display: inline;
+	padding-left: 0;
+	padding-right: 2px;
+}
+
+ul.oddo-social-icons li img,
+ul.oddo-social-icons li img {
+	max-width: 36px;
+	height: auto;
+}
+
+/* TYPOGRAPHY
+---------------------------------------------------------------------------------------------------- */
+.et_pb_text h1 {
+  font-size: 36px;
+  line-height: 1.1em;
+  /* text-transform: uppercase;
+  letter-spacing: 2px; */
+}
+
+.et_pb_text h2,
+.oddo-section-page-intro .et_pb_text h1 {
+  font-size: 30px;
+  line-height: 1.3em;
+  color: #3a3b3b;
+  padding-bottom: 4px;
+}
+
+.et_pb_text h3 {
+  font-size: 26px;
+  line-height: 1.2em;
+  color: #535555;
+  padding-bottom: 4px;
+}
+
+.et_pb_text h4 {
+  font-size: 21px;
+  line-height: 1.2em;
+  color: #535555;
+  padding-bottom: 4px;
+}
+
+.et_pb_text h5 {
+  font-size: 18px;
+  line-height: 1.2em;
+  color: #535555;
+  padding-bottom: 4px;
+}
+
+.et_pb_text h6 {
+  font-size: 16px;
+  line-height: 1.2em;
+  color: #535555;
+  text-transform: uppercase;
+  padding-bottom: 4px;
+}
+
+.et_pb_text p,
+.et_pb_text ul,
+.et_pb_text ol {
+  font-size: 18px;
+  line-height: 1.7em;
+}
+
+.et_pb_text.oddo-image-caption p {
+  font-size: 16px;
+}
+
+.et_pb_text ul,
+.et_pb_post_content ul {
+  padding-left: 48px;
+}
+
+/* .et_pb_text ul + p {
+  padding-bottom: 0 !important;
+} */
+
+.et_pb_text ol {
+  padding-left: 30px;
+}
+
+.oddo-section-page-intro .et_pb_text h2,
+.oddo-section-home-services .et_pb_text h2 {
+  /* text-transform: uppercase; */
+  /* letter-spacing: 2px; */
+  padding-bottom: 2px;
+  /* color: #fff; */
+}
+
+.oddo-section-page-intro .et_pb_text p {
+  font-size: 20px;
+  line-height: 1.8em;
+  /* color: #fff; */
+}
+
+blockquote {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+  border-color: #8d8e8c;
+  margin-bottom: 1.75em;
+}
+
+blockquote p {
+  /* text-transform: capitalize;
+  color: #8d8e8c; */
+}
+
+/* HOME
+---------------------------------------------------------------------------------------------------- */
+
+/* Home - Hero
+--------------------------------------------- */
+.oddo-home-hero .header-content {
+  max-width: 1200px !important;
+  width: 100% !important;
+}
+
+.oddo-home-hero img {
+  max-width: 400px;
+}
+
+.oddo-home-hero h1 {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.oddo-home-hero h2 {
+  text-transform: none;
+  font-size: 24px;
+  max-width: 850px;
+  margin: 0 auto;
+  letter-spacing: normal;
+  line-height: 36px;
+  color: #8e8e8c !important;
+}
+
+body .oddo-home-hero .et_pb_fullwidth_header_0 .et_pb_button_one.et_pb_button,
+body .oddo-home-hero .et_pb_fullwidth_header_0 .et_pb_button_two.et_pb_button {
+  transition: none !important;
+}
+
+/* Home - Work
+--------------------------------------------- */
+/* Also applies to Work Home page */
+.oddo-home-work-section .et_pb_promo {
+  /* -webkit-filter: grayscale(100%);
+   filter: grayscale(100%); */
+   padding-top: 56.25% !important; /* 16:9 ratio */
+   padding-right: 0px !important;
+   padding-bottom: 0px !important;
+   padding-left: 0px !important;
+}
+
+.oddo-home-work-section .et_pb_promo:hover {
+  /* -webkit-filter: grayscale(0%);
+   filter: grayscale(0%); */
+   /* -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); */
+}
+
+.oddo-home-work-section .et_pb_promo_description {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  background-color: #2e2e2e;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 102%;
+}
+
+.oddo-home-work-section .et_pb_promo_description h2 {
+  padding-bottom: 0;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #b37f36 !important;
+}
+
+.oddo-home-testimonial-section h4 {
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+.oddo-page-section-divider h2 {
+  padding-bottom: 0;
+  line-height: 1;
+}
+
+/* Home - Insights
+--------------------------------------------- */
+/* Also applies to Insights home page */
+.oddo-blog-grid .et_pb_post {
+  margin-bottom: 24px !important;
+}
+
+.oddo-section-menu .et-menu a {
+  transition: none !important;
+}
+
+/* SERVICES
+---------------------------------------------------------------------------------------------------- */
+.oddo-section-menu .services {
+
+}
+
+/* FORMS
+---------------------------------------------------------------------------------------------------- */
+/* styled for gravity forms AND divi (won't work properly without divi)
+  see: https://docs.gravityforms.com/css-targeting-examples/
+*/
+
+/* Gravity Forms Sections - for Divi
+--------------------------------------------- */
+.gform_wrapper h2 {
+  font-size: 26px !important;
+  line-height: 1.2em;
+  color: #2e2e2e;
+  font-weight: normal !important;
+}
+
+/* Gravity Forms Select - for Divi
+--------------------------------------------- */
+body .gform_wrapper .gform_body .gform_fields .gfield .ginput_container_select {
+  position: relative;
+}
+
+body .gform_wrapper .gform_body .gform_fields .gfield .ginput_container_select:after {
+  color: #434B67;
+  font-family: 'ETmodules';
+  content: '\33';
+	font-size: 28px;
+	position: absolute;
+	top: 14px;
+	right: 20px;
+	pointer-events: none;
+}
+
+body .gform_wrapper .gform_body .gform_fields .gfield select {
+  /* background-color: #f7f7f6; */
+  background-color: #fff;
+  border: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding-left: 16px;
+  height: 56px;
+}
+
+/* Gravity Forms Text Fields - for Divi
+--------------------------------------------- */
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=text] {
+  /* background-color: #f7f7f6; */
+  background-color: #fff;
+  padding: 16px !important;
+  border: 0;
+  border-radius: 0;
+}
+
+body .gform_wrapper .gform_body .gform_fields .gfield textarea {
+  /* background-color: #f7f7f6; */
+  background-color: #fff;
+  padding: 16px !important;
+  border: 0;
+  border-radius: 0;
+}
+
+body .oddo-sidebar-cta .gform_wrapper .gform_body .gform_fields .gfield input[type=text],
+body .oddo-sidebar-cta .gform_wrapper .gform_body .gform_fields .gfield textarea {
+  background-color: #fff;
+}
+
+/* Gravity Forms Submit Button - for Divi
+--------------------------------------------- */
+body .gform_wrapper .gform_footer input[type=submit] {
+  color: #2e2e2e;
+  border: 3px solid #2e2e2e !important;
+  border-radius: 5px;
+  background-color: transparent;
+  font-size: 20px;
+  line-height: 1.7em !important;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: .3em 1em !important;
+  box-shadow: none;
+  float: right;
+}
+
+body .gform_wrapper .gform_footer input[type=submit]:hover {
+  color: #9e9e9e !important;
+  border-color: #9e9e9e !important;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+
+/* Gravity Labels - for Divi
+--------------------------------------------- */
+body .gform_wrapper .gform_body .gform_fields .gfield .gfield_label {
+  font-weight: normal;
+}
+
+body .gform_wrapper span.gfield_required {
+  color: #d8492d !important;
+}
+
+/* Gravity Validation Error - for Divi
+--------------------------------------------- */
+body .gform_wrapper .validation_error {
+  /* color: #d8492d !important; */
+  color: #fff !important;
+  border-top: 0 !important;
+  border-bottom: 0 !important;
+  background-color: #d8492d  !important;
+  /* background-color: #2e2e2e !important; */
+  /* background-color: #f7f7f6!important; */
+  /* background-color: transparent !important; */
+  width: 96% !important;
+  /* padding-left: 16px !important; */
+  padding: 18px 24px !important;
+  font-weight: normal !important;
+}
+
+body .gform_wrapper li.gfield.gfield_error {
+  border-top: 0 !important;
+  border-bottom: 0 !important;
+  color: #d8492d !important;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: transparent !important;
+}
+
+body .gform_wrapper li.gfield_error input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]),
+body .gform_wrapper li.gfield_error textarea,
+body .gform_wrapper li.gfield_error .ginput_container_select {
+  border: 1px solid #d8492d !important;
+}
+
+.gform_wrapper .top_label li.gfield.gf_left_half .ginput_container:not(.gfield_time_hour):not(.gfield_time_minute):not(.gfield_time_ampm):not(.ginput_container_date):not(.ginput_quantity):not(.datepicker):not(.gfield_signature_container),
+.gform_wrapper .top_label li.gfield.gf_right_half .ginput_container:not(.gfield_time_hour):not(.gfield_time_minute):not(.gfield_time_ampm):not(.ginput_container_date):not(.ginput_quantity):not(.datepicker):not(.gfield_signature_container) {
+  padding-right: 1px !important;
+}
+
+body .gform_wrapper li.gfield.gfield_error .gfield_label {
+  color: #d8492d !important;
+}
+
+body .gform_wrapper.gform_validation_error .top_label li.gfield.gfield_error {
+  padding-right: 16px !important;
+}
+
+body .gform_wrapper .validation_message {
+  color: #d8492d !important;
+}
+
+body .gform_wrapper li.gfield.gfield_error.gfield_contains_required div.gfield_description {
+  padding-left: 0 !important;
+}
+
+body .gform_wrapper .gform_body .gform_fields .gfield_error .validation_message {
+  font-weight: normal !important;
+  font-style: italic !important;
+}
+
+.oddo-gf-required {
+  text-align: right;
+  font-style: italic;
+  color: #8e8e8c;
+}
+
+/* FORMS - CUSTOM WEBSITES
+---------------------------------------------------------------------------------------------------- */
+#gform_wrapper_1 h2 {
+  color: #b37f36 !important;
+}
+
+#gform_wrapper_1 #field_1_1,
+#gform_wrapper_1 #field_1_2 {
+  margin-top: 0 !important;
+}
+
+#gform_wrapper_1 .gsection {
+  margin-bottom: 18px !important;
+}
+
+#gform_wrapper_1 #field_1_10 {
+  margin-bottom: 28px !important;
+}
+
+#gform_wrapper_1 #input_1_4_3,
+#gform_wrapper_1 #input_1_4_6 {
+  margin-bottom: 0 !important;
+}
+
+#gform_wrapper_1 #input_1_5,
+#gform_wrapper_1 #input_1_6 {
+  margin-top: 0 !important;
+}
+
+@media only screen and ( max-width: 640px ) {
+
+  #gform_wrapper_1 #field_1_1 {
+    margin-bottom: 16px !important;
+  }
+
+  #gform_wrapper_1 .gsection {
+    margin-bottom: 28px !important;
+  }
+
+  #gform_wrapper_1 #input_1_4_3 {
+    margin-top: 2px !important;
+  }
+
+  #gform_wrapper_1 #input_1_4_6 {
+    margin-top: 10px !important;
+  }
+
+}
+
+/* FORMS - WORDPRESS CUSTOMIZATION
+---------------------------------------------------------------------------------------------------- */
+#gform_wrapper_2 h2 {
+  color: #1b6f99!important;
+}
+#gform_wrapper_2 .gsection {
+  margin-bottom: 18px !important;
+}
+
+#gform_wrapper_2 select {
+  margin-top: 12px;
+}
+
+#gform_wrapper_2 #field_2_12 {
+  margin-bottom: 28px !important;
+}
+
+#gform_wrapper_2 #input_2_4_3,
+#gform_wrapper_2 #input_2_4_6 {
+  margin-bottom: 0 !important;
+}
+
+/* FORMS - WORDPRESS SUPPORT
+---------------------------------------------------------------------------------------------------- */
+#gform_wrapper_5 h2 {
+  color: #9a3826 !important;
+}
+
+#gform_wrapper_5 .gsection {
+  margin-bottom: 18px !important;
+}
+
+#gform_wrapper_5 select {
+  margin-top: 12px;
+}
+
+#gform_wrapper_5 #field_5_7 {
+  margin-top: 28px !important;
+}
+
+#gform_wrapper_5 #input_5_4_3,
+#gform_wrapper_5 #input_5_4_6 {
+  margin-bottom: 0 !important;
+}
+
+/* FORMS - CONTACT
+---------------------------------------------------------------------------------------------------- */
+@media only screen and ( max-width: 640px ) {
+
+  #gform_wrapper_4 #input_4_1_6 {
+    margin-top: 20px !important;
+  }
+
+}
+
+/* FORM - STRATEGY BRIEF
+---------------------------------------------------------------------------------------------------- */
+#gform_wrapper_10 h2 {
+  color: #b37f36 !important;
+}
+
+/* FORM - SITE MAP
+---------------------------------------------------------------------------------------------------- */
+/* #gform_wrapper_8 #field_8_1 {
+  height: 600px !important;
+} */
+
+
+
+
+
+
+
+/* FORM - LOGIN PAGE
+---------------------------------------------------------------------------------------------------- */
+#main-content .post-password-required {
+  padding: 12px 0 32px 0;
+}
+
+#main-content .post-password-required .oddo-password-form h2 {
+}
+
+#main-content .post-password-required .oddo-password-form p.oddo-help {
+  padding-bottom: 0;
+  color: #8e8e8c;
+}
+
+#main-content .post-password-required .oddo-password-form {
+  padding: 3%;
+  max-width: 700px;
+  margin: auto;
+}
+
+#main-content .post-password-required .oddo-password-form input[type=password] {
+  width: 100%;
+  background: #f7f7f6;
+  padding: 16px;
+  margin: 0 0 12px 0;
+  border: 0;
+  border-radius: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+#main-content .post-password-required .oddo-password-form input[type=submit] {
+  color: #2e2e2e;
+  border: 3px solid #2e2e2e !important;
+  border-radius: 5px;
+  background-color: transparent;
+  font-size: 20px;
+  line-height: 1.7em !important;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: .3em 1em !important;
+  box-shadow: none;
+  float: right;
+}
+
+#main-content .post-password-required .oddo-password-form input[type=submit]:hover {
+  color: #9e9e9e !important;
+  border-color: #9e9e9e !important;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+
+/* LANDING PAGE - Website Audit Service
+---------------------------------------------------------------------------------------------------- */
+body .oddo-column-sidebar-cta #gform_confirmation_message_3 {
+  color: #fff !important;
+}
+
+/* Gravity Forms Labels (on black bg)
+--------------------------------------------- */
+body .oddo-column-sidebar-cta .gform_wrapper .gform_body .gform_fields .gfield .gfield_label {
+  color: #fff;
+}
+
+/* Gravity Forms Button (on black bg)
+--------------------------------------------- */
+body .oddo-column-sidebar-cta .gform_wrapper .gform_footer input[type=submit] {
+  color: #9e9e9e;
+  border: 3px solid #9e9e9e !important;
+  border-radius: 5px;
+  background-color: transparent;
+  font-size: 20px;
+  line-height: 1.7em !important;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: .3em 1em !important;
+  box-shadow: none;
+  float: right;
+}
+
+body .gform_wrapper .gform_footer input[type=submit]:hover {
+  color: #535555 !important;
+  border-color: #535555 !important;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+
+/* CONTACT
+---------------------------------------------------------------------------------------------------- */
+#gform_wrapper_4 #input_4_1_3,
+#gform_wrapper_4 #input_4_1_6 {
+  margin-bottom: 0 !important;
+}
+
+#gform_wrapper_4 #input_4_4 {
+  margin-bottom: 12px !important;
+}
+
+/* BUTTONS
+---------------------------------------------------------------------------------------------------- */
+.et_pb_button {
+  transition-property: none !important;
+}
+
+
+
+/* ==========================================================================
+   Error Page
+   ========================================================================== */
+.error404 #main-content .container:before {
+    background-color: transparent !important;
+}

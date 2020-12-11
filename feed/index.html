@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Oddo Design</title>
+	<atom:link href="https://www.oddodesign.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.oddodesign.com</link>
+	<description>WordPress Designer &#38; Developer</description>
+	<lastBuildDate>Sun, 22 Mar 2020 01:53:44 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.4.1</generator>
+
+<image>
+	<url>https://www.oddodesign.com/wp-content/uploads/2020/03/cropped-oddo-favicon-2-5-32x32.png</url>
+	<title>Oddo Design</title>
+	<link>https://www.oddodesign.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>WordPress Child Themes and Why You Should Use Them</title>
+		<link>https://www.oddodesign.com/wordpress-child-themes-use/</link>
+					<comments>https://www.oddodesign.com/wordpress-child-themes-use/#respond</comments>
+		
+		<dc:creator><![CDATA[Tommy Oddo]]></dc:creator>
+		<pubDate>Wed, 19 Apr 2017 20:52:27 +0000</pubDate>
+				<category><![CDATA[Development]]></category>
+		<guid isPermaLink="false">https://www.oddodesign.com/?p=11052</guid>
+
+					<description><![CDATA[<p>If you or your WordPress developer failed to use a child theme, modifications to your website could disappear when your parent theme gets updated. Such an oversight could cost you hundreds, if not thousands in development dollars, and hours of downtime to correct. Here’s how to avoid that costly mistake.</p>
+<p>The post <a rel="nofollow" href="https://www.oddodesign.com/wordpress-child-themes-use/">WordPress Child Themes and Why You Should Use Them</a> appeared first on <a rel="nofollow" href="https://www.oddodesign.com">Oddo Design</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>If you or your WordPress developer failed to use a <em>child theme</em>, modifications to your website could disappear when your <em>parent</em> theme gets updated. Such an oversight could cost you hundreds, if not thousands in development dollars, and hours of downtime to correct. Here’s how to avoid that costly mistake.</p>
+
+
+
+<h2>The Purpose of a Child Theme</h2>
+
+
+
+<p>WordPress developers often begin with a pre-built Theme or framework. Instead of “reinventing the wheel”, we often rely on pre-coded, page grid systems and stylable modules such as menus; buttons; form components; animation scripts; and more.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>These flexible building blocks help streamline the production process and make websites more affordable.</p></blockquote>
+
+
+
+<p>From time to time, these pre-built themes, frameworks, and modules are updated by their respective developers— to close a security vulnerability; to improve performance; to fix a bug; or to enhance functionality. When they do, the modifications your WordPress developer made to customize your website can be overwritten.</p>
+
+
+
+<p>For example, if your WordPress developer’s header modifications were made directly to a <em>parent</em> theme, your “header.php” file will be overwritten next time your <em>parent</em> theme is updated.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>That’s exactly why WordPress allows for, and recommends, the use of <em>child</em> themes.</p></blockquote>
+
+
+
+<h2>Creating a Child Theme is Easy</h2>
+
+
+
+<p>Basically, that theme or framework that’s used to begin building your website becomes a <em>parent</em> theme when your <em>child</em> theme is created.</p>
+
+
+
+<p>Creating a child theme only takes about 30 minutes:</p>
+
+
+
+<ul><li>Create a new folder in your “wp-content/themes” directory</li><li>Create a file in that folder called “style.css” and add a few lines of code</li><li>Create a “functions.php” file and add a few lines of code</li></ul>
+
+
+
+<blockquote class="wp-block-quote"><p>Done! Your WordPress developer just saved you many hours of frustration and fees, merely by doing 30 minutes worth of work!</p></blockquote>
+
+
+
+<p>Now, instead of working directly on the original “header.php” file (for example), your WordPress developer simply copies that file from your parent theme to your child theme and works on the copy. And yes, WordPress is smart enough to use the copy in your child theme, instead of the original in your parent theme.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Next time your parent theme gets updated, you won’t have to worry about losing your modifications!</p></blockquote>
+
+
+
+<h2>What If Your WordPress Developer Didn’t Use a Child Theme?</h2>
+
+
+
+<p>If your website does not have extensive modifications, creating a child theme may not be so difficult.</p>
+
+
+
+<p>To do this, your WordPress developer will need to back up your site and move it to a test environment. Within that test environment your developer can perform a “diff”— i.e., compare the files of your current/modified theme to the latest version of the original developer’s theme to see how they differ.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Then, your developer can begin the process of creating your child theme— by dragging changed files into your child theme folder, and restoring your parent theme.</p></blockquote>
+
+
+
+<p>After some testing, the new version of your site will need to be migrated back to your live server environment.</p>
+
+
+
+<h2>Always Backup Before Any Updates!</h2>
+
+
+
+<p>Whether you’re updating a plugin, or a Theme, you must always make a complete backup of your site first. In fact, if you don’t have a backup strategy, maybe you should work on that one first. <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<p>* These instructions aren’t meant for developers— you can find detailed info in the <a href="https://codex.wordpress.org/Child_Themes">WordPress Codex</a>.</p>
+<p>The post <a rel="nofollow" href="https://www.oddodesign.com/wordpress-child-themes-use/">WordPress Child Themes and Why You Should Use Them</a> appeared first on <a rel="nofollow" href="https://www.oddodesign.com">Oddo Design</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.oddodesign.com/wordpress-child-themes-use/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Page Builders for WordPress: Understanding the Controversy</title>
+		<link>https://www.oddodesign.com/wordpress-page-builders/</link>
+					<comments>https://www.oddodesign.com/wordpress-page-builders/#respond</comments>
+		
+		<dc:creator><![CDATA[Tommy Oddo]]></dc:creator>
+		<pubDate>Mon, 21 Nov 2016 02:53:18 +0000</pubDate>
+				<category><![CDATA[Development]]></category>
+		<guid isPermaLink="false">https://www.oddodesign.com/?p=10970</guid>
+
+					<description><![CDATA[<p>A page builder makes it easier for non-developers to build a custom WordPress website. But WordPress developers (i.e., those who code) argue that page builders make a big mess of your content. And they’re right! Here’s why we should use them anyway.</p>
+<p>The post <a rel="nofollow" href="https://www.oddodesign.com/wordpress-page-builders/">Page Builders for WordPress: Understanding the Controversy</a> appeared first on <a rel="nofollow" href="https://www.oddodesign.com">Oddo Design</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>A <em>page builder</em>&nbsp;makes it easier for non-developers to build&nbsp;a custom WordPress website. But WordPress developers (i.e., those who code) argue that page builders make a big mess of your content. And they’re right! Here’s why we&nbsp;should use them&nbsp;anyway.</p>
+
+
+
+<p><em>Disclosure: I am both— a WordPress designer and developer. Until recently, I insisted on coding all&nbsp;new WordPress themes/websites “manually”— in a code editor, starting with&nbsp;my custom, developer-friendly framework to streamline the design and development process. There are still situations when this approach is the best way to go for a new website.</em></p>
+
+
+
+<p><em>But writing and rewriting good code, especially when you design in the web browser like I often do, takes a lot of time. Although&nbsp;I love to code, it&nbsp;does not lend itself to quickly building functional wireframes; rapid-prototyping; design improvisation; or client revisions.</em></p>
+
+
+
+<p><em>Secondly, it&#8217;s difficult to compete (price-wise) against designers and developers who rely exclusively on predesigned themes, page builders, and/or sloppy coding practices.&nbsp;</em><em>That’s because many small businesses, eager to save money, are quick to hire&nbsp;inexperienced web designers/developers— until they eventually realize what it will cost to fix or extend their poorly-coded website.</em></p>
+
+
+
+<p><em>So a few years ago, I bit the bullet and began using a page builder called <a href="https://www.elegantthemes.com/gallery/divi/">Divi</a> to build new websites.</em></p>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img src="https://www.oddodesign.com/wp-content/uploads/2020/01/page-builder-divi.png" alt="" class="wp-image-12621" width="706" height="663" srcset="https://www.oddodesign.com/wp-content/uploads/2020/01/page-builder-divi.png 706w, https://www.oddodesign.com/wp-content/uploads/2020/01/page-builder-divi-480x451.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 706px, 100vw" /></figure>
+
+
+
+<h2>WordPress Page Builders Defined</h2>
+
+
+
+<p>Page builders are especially attractive to designers and novices who can&#8217;t&nbsp;code. Want a full-width slider here? Click. Want a 2-column row there? Click. Want a 3-column row of images here? Click.&nbsp;Changed your mind? Click.</p>
+
+
+
+<p>Admittedly,&nbsp;that scenario is a dangerous&nbsp;oversimplification— it takes <em>far more</em> than a few clicks to create a good website. The point is, there was no coding required to build that simple layout— at least<em> initially</em>.</p>
+
+
+
+<h2>Developers Argue that Page Builders Stuff Your Pages with Shortcodes</h2>
+
+
+
+<p>Yes, page builders like Divi rely heavily on WordPress’ shortcode API (application program interface) to insert complex features like multi-column layouts; slideshows; image galleries; “contact us” forms; buttons; and more. What would otherwise be many lines of code in the WordPress editor is transformed into one very short phrase surrounded by brackets.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://www.oddodesign.com/wp-content/uploads/2016/11/shortcode-example-1.png" alt="" class="wp-image-13196"/></figure>
+
+
+
+<p>The problem is, page builders use shortcodes <em>excessively</em>. That&#8217;s one reason why you must use their interface, rather than the WordPress editor, to build your pages.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Developers rightly argue that if/when you eventually switch to a WordPress theme that doesn’t recognize the old page builder’s shortcodes, they will appear scattered throughout the text of your next website!</p></blockquote>
+
+
+
+<p>This is commonly referred to as “theme lock-in”. And opponents often use words like “nightmare” to describe&nbsp;it.</p>
+
+
+
+<h2>Why Page Builders (and Shortcodes) Aren’t a “Nightmare”</h2>
+
+
+
+<p>During&nbsp;the 20+ years I’ve worked as a freelance web designer/developer, I cannot&nbsp;recall&nbsp;a single client who frequently redesigned their website. In fact, I’d say the average lifespan of a new website is about 3 to 5 years— depending on the industry the business is in; the pace of technological advances; and how well the website was maintained.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Years later, the text usually needs to be edited or completely rewritten anyway— typically&nbsp;within the writer’s word processor of choice—&nbsp;without any trace of&nbsp;shortcodes!</p></blockquote>
+
+
+
+<p>But what about a blog with hundreds of blog posts that&nbsp;<em>won’t</em>&nbsp;be edited or completely rewritten? Just use the same page builder for your next redesign, and those unexecutable shortcodes&nbsp;will not be an issue.</p>
+
+
+
+<h2>How to Remove Shortcodes</h2>
+
+
+
+<p>Even if you can’t, or refuse to use the same page builder for your&nbsp;<em>next</em>&nbsp;redesign 3 to 5 years later— it is highly unlikely you will have a “nightmare” on your hands.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>A developer can use a “search pattern” to isolate and delete these no-longer-used shortcodes from your original text.</p></blockquote>
+
+
+
+<p>For example, export the original WordPress database file before the redesign process begins; open it in BBEdit (or your tool of choice); do a “grep” search and replace for &#8220;[(.?)]&#8221; (without quotes); re-import the cleaned-up database; install your new theme; and begin the redesign process without any trace of shortcodes.</p>
+
+
+
+<h2>Removing Page Builder Shortcodes is Less Expensive Than Manually Coding an Entire Website</h2>
+
+
+
+<p>Even if the entire cleanup process outlined above takes a day or two to remove the unused shortcodes from the text of a large blog, you’ll have to pay a web developer for 8 to 16 hours worth of work. And yes, if you’re the client, that would suck.</p>
+
+
+
+<p>But manually coding the same high-quality, custom website (yes, without a page builder) will&nbsp;require more development time (and money) to build in the first place— no matter how streamlined the&nbsp;developer’s process.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>The time/money saved using a page builder, will more than offset the time required to remove&nbsp;the shortcodes.</p></blockquote>
+
+
+
+<h2>Some Developers Argue that Page Builders are Bad for SEO</h2>
+
+
+
+<p>I searched for recent scientific evidence that current versions of&nbsp;page builders, particularly the one I use (Divi), are bad for search engine optimization, and could not find anything.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Yes, there is some discussion about “code bloat” and page loading times— this is also an argument I’ve used against the use of older page builders and predesigned themes, in the past, as well.</p></blockquote>
+
+
+
+<p>However, if you load&nbsp;<em>any</em>&nbsp;web page built without&nbsp;a page builder with oversized, non-optimized images; lots of crazy parallax effects and animation; pull data&nbsp;from multiple&nbsp;external servers (e.g. social media feeds, ads, images, etc.); install a ton of unnecessary plugins; ignore basic SEO principles; and buy a cheap hosting plan; you will get exactly what you’re looking for— a slow loading website that performs poorly in the search results.</p>
+
+
+
+<p>The real problem with page builders is that they empower novices to make bad decisions.</p>
+
+
+
+<h2>Conclusion</h2>
+
+
+
+<p>Despite&nbsp;the marketing hype&nbsp;generated by companies that create and market&nbsp;page builders, there&nbsp;is no such thing as a &#8220;no coding required&#8221; website— certainly&nbsp;not the kind my clients hire me to design and develop. Invariably, there are&nbsp;customizations that extend well&nbsp;beyond the capabilities of&nbsp;a page builder.</p>
+
+
+
+<p>The bottom line is that&nbsp;a page builder allows a designer/developer like myself, to spend more time crafting&nbsp;the&nbsp;user experience, and less time coding.</p>
+<p>The post <a rel="nofollow" href="https://www.oddodesign.com/wordpress-page-builders/">Page Builders for WordPress: Understanding the Controversy</a> appeared first on <a rel="nofollow" href="https://www.oddodesign.com">Oddo Design</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.oddodesign.com/wordpress-page-builders/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Introducing WPSimplifyd WordPress Support &#038; Maintenance Services</title>
+		<link>https://www.oddodesign.com/wordpress-support-maintenance-services/</link>
+					<comments>https://www.oddodesign.com/wordpress-support-maintenance-services/#respond</comments>
+		
+		<dc:creator><![CDATA[Tommy Oddo]]></dc:creator>
+		<pubDate>Mon, 03 Oct 2016 02:38:04 +0000</pubDate>
+				<category><![CDATA[Development]]></category>
+		<guid isPermaLink="false">https://www.oddodesign.com/?p=10966</guid>
+
+					<description><![CDATA[<p>Oddo Design has been offering WordPress support &#038; maintenance services for years. Eventually I expanded and rebranded these services— now called WPSimplifyd. Here a few tips about proper WordPress maintenance and a few notes about WPSimplifyd's new plans.</p>
+<p>The post <a rel="nofollow" href="https://www.oddodesign.com/wordpress-support-maintenance-services/">Introducing WPSimplifyd WordPress Support &#038; Maintenance Services</a> appeared first on <a rel="nofollow" href="https://www.oddodesign.com">Oddo Design</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>Oddo Design has been offering&nbsp;WordPress support &amp;&nbsp;maintenance&nbsp;services for years. Eventually, I&nbsp;expanded&nbsp;and rebranded these services— now called <em><a href="https://www.wpsimplifyd.com">WPSimplifyd</a>.</em>&nbsp;Here&nbsp;a few tips about proper WordPress maintenance and a few notes&nbsp;about <em>WPSimplifyd&#8217;s</em> new plans.</p>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img src="https://www.oddodesign.com/wp-content/uploads/2020/01/wpsimplifyd.png" alt="" class="wp-image-12623" width="706" height="400" srcset="https://www.oddodesign.com/wp-content/uploads/2020/01/wpsimplifyd.png 706w, https://www.oddodesign.com/wp-content/uploads/2020/01/wpsimplifyd-480x272.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 706px, 100vw" /></figure>
+
+
+
+<h2>What are WordPress Support &amp; Maintenance Services?</h2>
+
+
+
+<p>Many small businesses launch their WordPress website without realizing&nbsp;it&nbsp;needs to be maintained—&nbsp;<em>until</em> it&nbsp;goes down or becomes&nbsp;infected with malware. This can be a costly, time-consuming mistake.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>To help avoid such an ordeal, WordPress, themes, and/or your plugins should be updated <em>at least</em> every 20 or 30 days. You&#8217;ll also need daily, malware-scanned backups— stored offsite, with the ability&nbsp;to quickly restore the site, in case of an emergency.</p></blockquote>
+
+
+
+<p>But for&nbsp;most small businesses, a do-it-yourself approach&nbsp;is&nbsp;problematic.</p>
+
+
+
+<p>You see, your software&nbsp;updates should&nbsp;be tested in a <em>test</em> environment first— <em>not on the&nbsp;live site!</em>&nbsp;That&#8217;s because a single&nbsp;plugin update can cause your&nbsp;entire site to go down. Knowing what to do when this happens&nbsp;is another matter. In addition,&nbsp;managing&nbsp;offsite backups, let alone hardening and monitoring your&nbsp;website to protect it against malware, is easier said than done.</p>
+
+
+
+<p>Furthermore, just&nbsp;knowing that&nbsp;a WordPress pro is a click or phone call away, will put your mind at ease and allow you to&nbsp;focus on what you do best. This is why the previous version of WordPress support &amp; maintenance services by Oddo Design have proven to be popular among&nbsp;clients.</p>
+<p>The post <a rel="nofollow" href="https://www.oddodesign.com/wordpress-support-maintenance-services/">Introducing WPSimplifyd WordPress Support &#038; Maintenance Services</a> appeared first on <a rel="nofollow" href="https://www.oddodesign.com">Oddo Design</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.oddodesign.com/wordpress-support-maintenance-services/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Introducing Oddo Audit— a Website Audit Service Exclusively for WordPress Websites</title>
+		<link>https://www.oddodesign.com/website-audit-service-from-oddo/</link>
+					<comments>https://www.oddodesign.com/website-audit-service-from-oddo/#respond</comments>
+		
+		<dc:creator><![CDATA[Tommy Oddo]]></dc:creator>
+		<pubDate>Sun, 18 Oct 2015 00:14:29 +0000</pubDate>
+				<category><![CDATA[Marketing]]></category>
+		<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://www.oddo.com/?p=10759</guid>
+
+					<description><![CDATA[<p>Last week, I introduced a new service that helps small businesses determine if their website is a clunker that's due for a major overhaul, or, a diamond-in-the-rough that just needs polish. This article helps you identify what elements of your website require the most scrutiny.</p>
+<p>The post <a rel="nofollow" href="https://www.oddodesign.com/website-audit-service-from-oddo/">Introducing Oddo Audit— a Website Audit Service Exclusively for WordPress Websites</a> appeared first on <a rel="nofollow" href="https://www.oddodesign.com">Oddo Design</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>My website audit service helps small businesses determine if their website is a clunker that&#8217;s due for a major overhaul, or, a diamond-in-the-rough that just needs polish. This article helps you identify what elements of your website require the most scrutiny— all with an eye on improving your visitors&#8217; experience, technical performance, security, and search engine optimization.</p>
+
+
+
+<h2>Website Audit Overview</h2>
+
+
+
+<p>Like an automobile, a website has many moving parts. And of course, it helps to know what those parts are. For my website audit service, I’ve identified 5 categories that represent the areas of greatest concern:</p>
+
+
+
+<ul><li>Content</li><li>Design</li><li>Technology</li><li>Security</li><li>Search Engine Optimization (SEO)</li></ul>
+
+
+
+<p>Let’s take a closer look. I inspect as many as 10 elements under each category in my client website audits. Here, I’m listing 3 under each category, to give you&nbsp;a better idea of what you need to look for.</p>
+
+
+
+<h2>Website Audit Elements</h2>
+
+
+
+<h3>Content</h3>
+
+
+
+<ul><li>Brevity (concise, to the point; no happy talk; no chest beating)</li><li>Scanability (easy to skim)</li><li>Keyword Stuffing (written for humans <em>first—</em>&nbsp;search engines <em>second</em>)</li><li>Etc.</li></ul>
+
+
+
+<h3>Design</h3>
+
+
+
+<ul><li>General appearance (unique; consistent; relevant to target audience)</li><li>Menu and button labels (logically grouped; easy to understand)</li><li>Readability (easy to read; adequate contrast against background images; etc.)</li><li>Etc.</li></ul>
+
+
+
+<h3>Technology</h3>
+
+
+
+<ul><li>Hosting provider and plan (optimized for WordPress)</li><li>WordPress and plugins use (10 or less; current versions)</li><li>Code formatting (developer-friendly; well-organized; easy to work with)</li><li>Etc.</li></ul>
+
+
+
+<h3>Security</h3>
+
+
+
+<ul><li>Backups (files and database backed up frequently)</li><li>Brute force protection and monitoring (block excessive login attempts)</li><li>Strong password enforcement</li><li>Etc.</li></ul>
+
+
+
+<h3>SEO</h3>
+
+
+
+<ul><li>Page speed</li><li>Mobile-friendliness</li><li>Keyword placement (url; first 100 words; h1; h2; etc.)</li><li>Etc.</li></ul>
+
+
+
+<h2>Preparing for Your Website Audit</h2>
+
+
+
+<p>Before beginning your audit, I&#8217;ll need:</p>
+
+
+
+<ul><li>Access to your Google Analytics account;</li><li>Access to your WordPress dashboard (admin level);</li><li>Access to your website via FTP; and</li><li>Target keywords for the page(s) being audited.</li></ul>
+
+
+
+<p>Learn more about <a href="https://www.oddodesign.com/services/wordpress-support/website-audit-service/">Oddo Audit</a> today.</p>
+<p>The post <a rel="nofollow" href="https://www.oddodesign.com/website-audit-service-from-oddo/">Introducing Oddo Audit— a Website Audit Service Exclusively for WordPress Websites</a> appeared first on <a rel="nofollow" href="https://www.oddodesign.com">Oddo Design</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.oddodesign.com/website-audit-service-from-oddo/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Heat Maps, Scroll Maps, and Confetti: See Exactly What Your Website Visitors Click On and How Far They Scroll</title>
+		<link>https://www.oddodesign.com/heat-maps-what-website-visitors-click-on/</link>
+					<comments>https://www.oddodesign.com/heat-maps-what-website-visitors-click-on/#respond</comments>
+		
+		<dc:creator><![CDATA[Tommy Oddo]]></dc:creator>
+		<pubDate>Wed, 26 Aug 2015 02:05:42 +0000</pubDate>
+				<category><![CDATA[Design]]></category>
+		<guid isPermaLink="false">http://www.oddo.com/?p=10710</guid>
+
+					<description><![CDATA[<p>A Heat Map is like a snapshot of a web page that has been dusted for visitors’ finger prints. It shows us what they’ve clicked on. And its sibling, the Scroll Map, shows how far down the page they’re willing to scroll. Let’s see how these, and yes, Confetti, can help improve the user experience on your website.</p>
+<p>The post <a rel="nofollow" href="https://www.oddodesign.com/heat-maps-what-website-visitors-click-on/">Heat Maps, Scroll Maps, and Confetti: See Exactly What Your Website Visitors Click On and How Far They Scroll</a> appeared first on <a rel="nofollow" href="https://www.oddodesign.com">Oddo Design</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>A <em>Heat Map</em> is like a snapshot of a web page that has been dusted for visitors’ finger prints. It shows us what they’ve clicked on. And its close relative, the <em>Scroll Map</em>, shows how far down the page they’re willing to scroll. Let’s see how these, and yes, <em>Confetti</em>, can&nbsp;help improve your website.</p>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img src="https://www.oddodesign.com/wp-content/uploads/2020/01/heatmap-confetti-cu.png" alt="" class="wp-image-12609" width="706" height="477" srcset="https://www.oddodesign.com/wp-content/uploads/2020/01/heatmap-confetti-cu.png 706w, https://www.oddodesign.com/wp-content/uploads/2020/01/heatmap-confetti-cu-480x324.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 706px, 100vw" /></figure>
+
+
+
+<h2>All Eyes Here Please!</h2>
+
+
+
+<p>When I design a website, or redesign a poorly performing web page, I rely on years of design experience and intuition to visually prioritize elements— relative to my client’s predefined success metrics. It’s like lighting a stage— I want all eyes on the main actors. For example, &nbsp;the &#8220;main actors&#8221; for a landing page are&nbsp;<em>benefits</em>, <em>features</em>, and <em>calls-to-action</em> (e.g., “Try Our Demo”; “Buy Now”; “Schedule an Appointment”; etc.).</p>
+
+
+
+<p>But recording and seeing what visitors have actually been clicking on over time, can be an eye-opening experience.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>For example, on a version of my own website, I discovered that visitors to my home page were clicking on the large letters (&#8220;ODDO&#8221;) in the banner graphic. That surprised me, because it’s not clear to visitors what happens by clicking there… which at the time, was nothing!</p></blockquote>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img src="https://www.oddodesign.com/wp-content/uploads/2020/01/heat-map-r1.png" alt="" class="wp-image-12607" width="706" height="507" srcset="https://www.oddodesign.com/wp-content/uploads/2020/01/heat-map-r1.png 706w, https://www.oddodesign.com/wp-content/uploads/2020/01/heat-map-r1-480x345.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 706px, 100vw" /></figure>
+
+
+
+<p>Once I realized this, I revised the banner— so that clicking on those letters would take visitors to my “About” page, which translated to more page views.</p>
+
+
+
+<h2>Do People Really Scroll?</h2>
+
+
+
+<p>Well, yes, according to the Scroll Map, relative to the design of my website, they do. But you can see that activity significantly decreases as we move down the Scroll Map/page. This suggests&nbsp;that there is room for improvement. Maybe a button or arrow just under the large banner graphic that prompts visitors to scroll down.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img src="https://www.oddodesign.com/wp-content/uploads/2020/01/scroll-map-202x1024.png" alt="" class="wp-image-12610" width="202" height="1024" srcset="https://www.oddodesign.com/wp-content/uploads/2020/01/scroll-map-202x1024.png 202w, https://www.oddodesign.com/wp-content/uploads/2020/01/scroll-map-59x300.png 59w, https://www.oddodesign.com/wp-content/uploads/2020/01/scroll-map-303x1536.png 303w, https://www.oddodesign.com/wp-content/uploads/2020/01/scroll-map.png 338w" sizes="(max-width: 202px) 100vw, 202px" /></figure></div>
+
+
+
+<blockquote class="wp-block-quote"><p>I also noticed that visitors were more likely to click on the &#8220;Services&#8221; menu, rather than scroll down (just a bit) to see shortcuts to the individual services on my Home Page. Glad I have more than one path to take them there.</p></blockquote>
+
+
+
+<h2>See Who Throws the Most “Confetti”</h2>
+
+
+
+<p>Another variation of the Heat Map, <em>Confetti</em>, can display which referral sources generate the most clicks, and perhaps more importantly, what visitors from each referral source tend to click on most. In my case, Google and direct visits (word-of-mouth) drove the most traffic, and the quality of these clicks seem to be better (i.e., prospects seem better qualified and are interested in learning more about my services).</p>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img src="https://www.oddodesign.com/wp-content/uploads/2020/01/heat-map-confetti.png" alt="" class="wp-image-12606" width="706" height="507" srcset="https://www.oddodesign.com/wp-content/uploads/2020/01/heat-map-confetti.png 706w, https://www.oddodesign.com/wp-content/uploads/2020/01/heat-map-confetti-480x345.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 706px, 100vw" /></figure>
+
+
+
+<h2>Introducing Crazy Egg</h2>
+
+
+
+<p>I looked at several Heat Map providers, but found <a rel="nofollow" href="http://www.crazyegg.com/">Crazy Egg</a> to be the most attractive for smaller businesses, and certainly in my case, when considering their pricing structure. Although Heat Mapping is nothing new, the main reason I haven’t put it into practice, is because of cost. However, you can try it free for 30 days, and after that, it’s $10 per month for non-mobile Heat Maps and up to 10 pages. I think this is quite reasonable, and yes, the screenshots I used were produced using Crazy Egg.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Since I&#8217;ve written this Post, I began using <a href="https://www.hotjar.com">HotJar</a>. At the time of this writing, the Personal/Basic Plan (&#8220;free forever&#8221;) is a great way to get your feet wet. In fact, I use it for my <a href="https://wpsimplifyd.com">WPSimplifyd</a> maintenance clients.</p></blockquote>
+
+
+
+<h2>But What About Google Analytics’ &#8220;In-Page Analytics&#8221;?</h2>
+
+
+
+<p>Let&#8217;s not forget that Google Analytics has a feature under the “Behavior” menu called “In-Page Analytics” which can be similarly useful, and I’d encourage you to give it a try. However, I&#8217;ve found it to be a little rough around the edges. And unlike Crazy Egg or HotJar, it <em>only</em> displays click events on <em>clickable objects</em>, such as buttons and links. Therefore, I would not have known my visitors were also clicking on &#8220;non-clickable&#8221; objects.</p>
+<p>The post <a rel="nofollow" href="https://www.oddodesign.com/heat-maps-what-website-visitors-click-on/">Heat Maps, Scroll Maps, and Confetti: See Exactly What Your Website Visitors Click On and How Far They Scroll</a> appeared first on <a rel="nofollow" href="https://www.oddodesign.com">Oddo Design</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.oddodesign.com/heat-maps-what-website-visitors-click-on/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Measuring Engagement: Bounce Rates and Why They Matter</title>
+		<link>https://www.oddodesign.com/measuring-engagement-bounce-rates-and-why-they-matter/</link>
+					<comments>https://www.oddodesign.com/measuring-engagement-bounce-rates-and-why-they-matter/#respond</comments>
+		
+		<dc:creator><![CDATA[Tommy Oddo]]></dc:creator>
+		<pubDate>Fri, 14 Aug 2015 02:57:39 +0000</pubDate>
+				<category><![CDATA[Design]]></category>
+		<guid isPermaLink="false">http://www.oddo.dev/?p=10661</guid>
+
+					<description><![CDATA[<p>When a visitor leaves your website after viewing just one page, it’s called a “bounce”. Your “bounce rate” may be an indicator of a poor user experience, which can lead to frustrated visitors; poor conversion rates; and less search traffic. Let's take a look.</p>
+<p>The post <a rel="nofollow" href="https://www.oddodesign.com/measuring-engagement-bounce-rates-and-why-they-matter/">Measuring Engagement: Bounce Rates and Why They Matter</a> appeared first on <a rel="nofollow" href="https://www.oddodesign.com">Oddo Design</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>When a visitor leaves your website after viewing just one page, it’s called a “bounce”. Your “bounce rate” may be an indicator of a poor user experience, which can lead&nbsp;to frustrated visitors; poor&nbsp;conversion rates; and less&nbsp;search traffic. Let&#8217;s take a look.</p>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img src="https://www.oddodesign.com/wp-content/uploads/2020/01/bounced-opt.png" alt="" class="wp-image-12613" width="706" height="518" srcset="https://www.oddodesign.com/wp-content/uploads/2020/01/bounced-opt.png 706w, https://www.oddodesign.com/wp-content/uploads/2020/01/bounced-opt-480x352.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 706px, 100vw" /></figure>
+
+
+
+<h2>How to Access Your &#8220;Bounce-Meter&#8221;</h2>
+
+
+
+<p>First, you’ll need a Google Analytics account with at least 1-3 months of accurate data (i.e., not distorted by spam referrals).</p>
+
+
+
+<p>After logging into your Google Analytics dashboard…</p>
+
+
+
+<ol><li>Go to: Behavior -&gt; Site Content -&gt; All Pages</li><li>Look at the “Bounce Rate” column</li></ol>
+
+
+
+<h2>Making Sense of Your Bounce Rates</h2>
+
+
+
+<p>Let’s take a look at your home page. If your bounce rate is high (70%+), you’ve got a problem.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>However, certain types of pages (e.g., blog posts) naturally tend to have higher bounce rates. So, we’ll also want to consider “Avg. Time on Page”.</p></blockquote>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img src="https://www.oddodesign.com/wp-content/uploads/2020/01/bounces-table.png" alt="" class="wp-image-12614" width="706" height="518" srcset="https://www.oddodesign.com/wp-content/uploads/2020/01/bounces-table.png 706w, https://www.oddodesign.com/wp-content/uploads/2020/01/bounces-table-480x352.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 706px, 100vw" /></figure>
+
+
+
+<p>In other words, there are a few exceptions, but the following guidelines may be good to start with:</p>
+
+
+
+<ul><li>Bad bounce rate: 70%+</li><li>Good bounce rate: 40% to 60%</li><li>Excellent bounce rate: 25% to 30%</li></ul>
+
+
+
+<h2>How to Improve Your Bounce Rates (and Engagement)</h2>
+
+
+
+<p>Which pages within your website (i.e., goal pages) are critically important to your success? Those are the ones you’ll want to focus on. As a general rule, the home page will certainly be one of these. And, perhaps certain product or service pages.</p>
+
+
+
+<h3>Here are a few things to look at:</h3>
+
+
+
+<h4>1) Content </h4>
+
+
+
+<ul><li>Appropriate for the target audience?</li><li>Quickly answers the question: “what’s in it for me?”</li><li>Well written, original, and easy to scan?</li></ul>
+
+
+
+<h4>2) Design</h4>
+
+
+
+<ul><li>Appropriate for the target audience?</li><li>Visually prioritized?</li><li>Strong calls-to-action?</li><li>Brand-compliant?</li><li>Effective use of images, color, typography?</li></ul>
+
+
+
+<h4>3) Technical</h4>
+
+
+
+<ul><li>Loads in under 3 seconds?</li><li>Cryptic error messages?</li><li>Broken links/images? </li></ul>
+
+
+
+<h4>4) Usability</h4>
+
+
+
+<ul><li>Menus, buttons easy to locate?</li><li>Menus, buttons labeled intuitively?</li><li>Information architecture well organized?</li><li>Visitor feedback? </li></ul>
+
+
+
+<p>Now, you can accurately identify the weak performers on your website, and take the necessary actions to improve your bounce rates&#8230; and ultimately conversions!</p>
+<p>The post <a rel="nofollow" href="https://www.oddodesign.com/measuring-engagement-bounce-rates-and-why-they-matter/">Measuring Engagement: Bounce Rates and Why They Matter</a> appeared first on <a rel="nofollow" href="https://www.oddodesign.com">Oddo Design</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.oddodesign.com/measuring-engagement-bounce-rates-and-why-they-matter/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to Prevent Google Analytics from Recording Your Own Visits</title>
+		<link>https://www.oddodesign.com/how-to-prevent-google-analytics-from-recording-your-own-visits/</link>
+					<comments>https://www.oddodesign.com/how-to-prevent-google-analytics-from-recording-your-own-visits/#respond</comments>
+		
+		<dc:creator><![CDATA[Tommy Oddo]]></dc:creator>
+		<pubDate>Wed, 29 Jul 2015 02:09:08 +0000</pubDate>
+				<category><![CDATA[Marketing]]></category>
+		<guid isPermaLink="false">http://www.oddo.dev/?p=10336</guid>
+
+					<description><![CDATA[<p>Here's a handy browser add-on that allows you to easily exclude your website visits from your Google Analytics reports— even if you have a dynamic IP address. Give it a try!</p>
+<p>The post <a rel="nofollow" href="https://www.oddodesign.com/how-to-prevent-google-analytics-from-recording-your-own-visits/">How to Prevent Google Analytics from Recording Your Own Visits</a> appeared first on <a rel="nofollow" href="https://www.oddodesign.com">Oddo Design</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>When Google Analytics&#8217; <a rel="nofollow" href="https://support.google.com/analytics/answer/1034840?hl=en">exclude filter</a> failed me, I found a way to filter out <em>my</em> visits to <em>my</em> website— and <em>to my client’s websites,</em> to avoid distorting our reports. Thankfully, I discovered the <a rel="nofollow" href="https://tools.google.com/dlpage/gaoptout">Google Analytics Opt-out Browser Add-on</a> (yes, by Google).</p>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img src="https://www.oddodesign.com/wp-content/uploads/2020/01/ga_opt_out.png" alt="" class="wp-image-12625" width="706" height="600" srcset="https://www.oddodesign.com/wp-content/uploads/2020/01/ga_opt_out.png 706w, https://www.oddodesign.com/wp-content/uploads/2020/01/ga_opt_out-480x408.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 706px, 100vw" /></figure>
+
+
+
+<p>In the past, I’ve been able to filter out my IP Address using an exclude filter. But recently, I discovered that my IP address is no longer static (and it once was). Plus, what if I visit from a different IP address, say at a coffee shop? This add-on works like a charm. Give it a try!</p>
+
+
+
+<p>For more detailed info, follow <a href="https://support.google.com/analytics/answer/181881?hl=en" rel="nofollow">this</a> link.</p>
+<p>The post <a rel="nofollow" href="https://www.oddodesign.com/how-to-prevent-google-analytics-from-recording-your-own-visits/">How to Prevent Google Analytics from Recording Your Own Visits</a> appeared first on <a rel="nofollow" href="https://www.oddodesign.com">Oddo Design</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.oddodesign.com/how-to-prevent-google-analytics-from-recording-your-own-visits/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Is Your Website Ready for Apple Watch?</title>
+		<link>https://www.oddodesign.com/websites-for-apple-watch/</link>
+					<comments>https://www.oddodesign.com/websites-for-apple-watch/#respond</comments>
+		
+		<dc:creator><![CDATA[Tommy Oddo]]></dc:creator>
+		<pubDate>Mon, 08 Jun 2015 22:39:40 +0000</pubDate>
+				<category><![CDATA[Design]]></category>
+		<guid isPermaLink="false">http://www.oddo.com/?p=9705</guid>
+
+					<description><![CDATA[<p>Is it time to design websites that also work on wristwatches? Would a web page even be legible at such a small size? Out of curiosity, I created a mockup to see what my website might look like on Apple Watch, and was surprised.</p>
+<p>The post <a rel="nofollow" href="https://www.oddodesign.com/websites-for-apple-watch/">Is Your Website Ready for Apple Watch?</a> appeared first on <a rel="nofollow" href="https://www.oddodesign.com">Oddo Design</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>A few years ago, someone posted a video of an Apple Watch running a web browser. This got me thinking&#8230; is it time to design websites that also work on wristwatches? Would a web page even be legible at such a small size? Out of curiosity, I created a mockup to see what my website might look like on Apple Watch, and was surprised.</p>
+
+
+
+<h2>Designing Websites for Apple Watch</h2>
+
+
+
+<p>To be clear, there is no publicly available web browser for Apple Watch that I&#8217;m aware of— however, someone using the alias &#8220;<a href="http://www.mobypicture.com/user/comex/view/18097875">comex</a>&#8221; demoed one after hacking the watch&#8217;s operating system. Until I saw it in action, it never occurred to me that I may need to design websites that work on wristwatches some day. In fact, since I began designing/developing responsive (i.e., mobile-friendly) a few years ago, I assumed that Apple&#8217;s first iPhone was among the smallest viewports (display areas) I&#8217;d have to worry about.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-full"><a href="http://moby.to/ak49wh"><img src="https://www.oddodesign.com/wp-content/uploads/2020/01/I_always_wanted_a_web_browser_on_my_wrist__by_comex__comex__on_Mobypicture.png" alt="" class="wp-image-12618" srcset="https://www.oddodesign.com/wp-content/uploads/2020/01/I_always_wanted_a_web_browser_on_my_wrist__by_comex__comex__on_Mobypicture.png 333w, https://www.oddodesign.com/wp-content/uploads/2020/01/I_always_wanted_a_web_browser_on_my_wrist__by_comex__comex__on_Mobypicture-210x300.png 210w" sizes="(max-width: 333px) 100vw, 333px" /></a><figcaption>Apple Watch Web Browser Hack</figcaption></figure></div>
+
+
+
+<p>Could it be that Apple is working on a version of Safari for Apple Watch? I wouldn&#8217;t be surprised at all. As you&#8217;re about to see, viewing a modified version of your website <em>is</em> feasible with some planning.</p>
+
+
+
+<p>Note: Since writing this post a few years ago, apple added support for webkit&#8230;</p>
+
+
+
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="How to Browse the Internet on Apple Watch" width="1080" height="608" src="https://www.youtube.com/embed/clATaBexIEc?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<blockquote class="wp-block-quote"><p>Most web designers/developers like myself are already laying the groundwork when we create responsive websites. This just means that the range of viewport sizes we&#8217;re targeting is about to become even more extreme.</p></blockquote>
+
+
+
+<p>Today, most clients and designers are primarily focused on the desktop experience. However, in general, our priorities are in the midst of a major shift, as the number of mobile users accessing&nbsp;the Internet <a href="http://searchenginewatch.com/sew/opinion/2353616/mobile-now-exceeds-pc-the-biggest-shift-since-the-internet-began">begins to exceed</a>&nbsp;the number of&nbsp;desktop users.</p>
+
+
+
+<h2>What Websites May Look Like on Apple Watch</h2>
+
+
+
+<p>Remember— there is no official web browser for Apple Watch yet, so, I&#8217;ve created a simulation using&nbsp;a portion of my website to compare the differences between:</p>
+
+
+
+<ul><li>Apple iPhone 5s;</li><li>Apple Watch (42mm); and</li><li>Apple Watch (38mm).</li></ul>
+
+
+
+<p>On the iPhone, the text is fairly easy to read— this is what my website actually looks like. If viewing this same section on the 42mm Apple Watch, the line-spacing would need to be tightened up. On the 38mm version, the same applies, however, making the text smaller as a whole, would also improve the experience.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://www.oddodesign.com/wp-content/uploads/2020/01/apple-watch-for-web.png" alt="" class="wp-image-12617" srcset="https://www.oddodesign.com/wp-content/uploads/2020/01/apple-watch-for-web.png 822w, https://www.oddodesign.com/wp-content/uploads/2020/01/apple-watch-for-web-480x321.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 822px, 100vw" /></figure></div>
+
+
+
+<p>Keep in mind too, that the screen resolution of these devices is very sharp&#8230; unlike what you&#8217;re probably seeing right now. In other words, smaller text is easier to read relative to a standard (72ppi) computer screen. Images on the other hand, would need to be dramatically simplified and used sparingly. If it doesn&#8217;t look good on a postage stamp, it won&#8217;t look good&nbsp;on your wrist either.</p>
+
+
+
+<p>The point is, many of the techniques we use to create responsive/mobile-friendly websites, can also be applied to&nbsp;watches. We can modify font attributes; display relevant and more concise content; deliver optimized images; and more— all relative to the viewport size of the device we&#8217;re using.</p>
+<p>The post <a rel="nofollow" href="https://www.oddodesign.com/websites-for-apple-watch/">Is Your Website Ready for Apple Watch?</a> appeared first on <a rel="nofollow" href="https://www.oddodesign.com">Oddo Design</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.oddodesign.com/websites-for-apple-watch/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Getting Started with Google Analytics for Non-Technical Users</title>
+		<link>https://www.oddodesign.com/getting-started-with-google-analytics-for-non-technical-users/</link>
+					<comments>https://www.oddodesign.com/getting-started-with-google-analytics-for-non-technical-users/#respond</comments>
+		
+		<dc:creator><![CDATA[Tommy Oddo]]></dc:creator>
+		<pubDate>Wed, 29 Apr 2015 19:03:51 +0000</pubDate>
+				<category><![CDATA[Marketing]]></category>
+		<guid isPermaLink="false">http://www.oddo.com/?p=9638</guid>
+
+					<description><![CDATA[<p>With Google Analytics' complicated maze of unfamiliar terms, settings, and filters that only a geek could love, it's easy to feel overwhelmed from the minute you log in. In this article,  I'll lead you directly to 5 key reports, and offer insights for each.</p>
+<p>The post <a rel="nofollow" href="https://www.oddodesign.com/getting-started-with-google-analytics-for-non-technical-users/">Getting Started with Google Analytics for Non-Technical Users</a> appeared first on <a rel="nofollow" href="https://www.oddodesign.com">Oddo Design</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p class="p1"><span class="s1">Google Analytics tracks and reports how visitors use your website. These reports can help improve&nbsp;your website and promotional tactics— <em>if</em> you&nbsp;know which ones to look for and where to find them. But with Google Analytics&#8217; complicated maze of unfamiliar terms, settings, and filters that only a geek could love, it&#8217;s easy to feel overwhelmed from the minute you log in. In this article, I&#8217;ll lead you directly to 5 key reports, and offer insights for each.</span></p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img src="https://www.oddodesign.com/wp-content/uploads/2020/01/google_analytics-demistified.png" alt="" class="wp-image-12632" width="822" height="400" srcset="https://www.oddodesign.com/wp-content/uploads/2020/01/google_analytics-demistified.png 822w, https://www.oddodesign.com/wp-content/uploads/2020/01/google_analytics-demistified-480x234.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 822px, 100vw" /></figure></div>
+
+
+
+<h2 class="p3"><span class="s1">Getting Started with&nbsp;Google Analytics</span></h2>
+
+
+
+<p class="p2"><span class="s1">If you haven&#8217;t already done so, the first thing you’ll need to do is <a href="https://www.google.com/analytics/"><span class="s2">sign up</span></a> for a Google Analytics account and add the tracking code to your website. For small businesses, the free “Analytics Standard” account is all you’ll need.</span></p>
+
+
+
+<h2 class="p3"><span class="s1">Adding the Tracking Code</span></h2>
+
+
+
+<p class="p2"><span class="s1">Google’s tracking code is a javascript snippet that must be installed on your website before you can begin recording data and generating reports.</span></p>
+
+
+
+<p class="p2"><span class="s1">However, if your website runs on WordPress, and you have the ability to install plugins, the easiest way to get started for non-developers is via the “<span class="s2"><a href="https://wordpress.org/plugins/google-analytics-for-wordpress/" class="rank-math-link">G</a></span><span class="s2"><a href="https://wordpress.org/plugins/google-analytics-for-wordpress/" class="rank-math-link">o</a></span><span class="s2"><a href="https://wordpress.org/plugins/google-analytics-for-wordpress/" class="rank-math-link">o</a></span><span class="s2"><a href="https://wordpress.org/plugins/google-analytics-for-wordpress/" class="rank-math-link">g</a></span><span class="s2"><a href="https://wordpress.org/plugins/google-analytics-for-wordpress/" class="rank-math-link">l</a></span><span class="s2"><a href="https://wordpress.org/plugins/google-analytics-for-wordpress/" class="rank-math-link">e</a></span><span class="s2"><a href="https://wordpress.org/plugins/google-analytics-for-wordpress/" class="rank-math-link"> </a></span><span class="s2"><a href="https://wordpress.org/plugins/google-analytics-for-wordpress/" class="rank-math-link">A</a></span><span class="s2"><a href="https://wordpress.org/plugins/google-analytics-for-wordpress/" class="rank-math-link">n</a></span><span class="s2"><a href="https://wordpress.org/plugins/google-analytics-for-wordpress/" class="rank-math-link">a</a></span><span class="s2"><a href="https://wordpress.org/plugins/google-analytics-for-wordpress/" class="rank-math-link">l</a></span><span class="s2"><a href="https://wordpress.org/plugins/google-analytics-for-wordpress/" class="rank-math-link">y</a></span><span class="s2"><a href="https://wordpress.org/plugins/google-analytics-for-wordpress/" class="rank-math-link">t</a></span><span class="s2"><a href="https://wordpress.org/plugins/google-analytics-for-wordpress/" class="rank-math-link">i</a></span><span class="s2"><a href="https://wordpress.org/plugins/google-analytics-for-wordpress/" class="rank-math-link">c</a></span><span class="s2"><a href="https://wordpress.org/plugins/google-analytics-for-wordpress/" class="rank-math-link">s</a></span><span class="s2"><a href="https://wordpress.org/plugins/google-analytics-for-wordpress/" class="rank-math-link"> </a></span><span class="s2"><a href="https://wordpress.org/plugins/google-analytics-for-wordpress/" class="rank-math-link">D</a></span><span class="s2"><a href="https://wordpress.org/plugins/google-analytics-for-wordpress/" class="rank-math-link">a</a></span><span class="s2"><a href="https://wordpress.org/plugins/google-analytics-for-wordpress/" class="rank-math-link">s</a></span><span class="s2"><a href="https://wordpress.org/plugins/google-analytics-for-wordpress/" class="rank-math-link">h</a></span><span class="s2"><a href="https://wordpress.org/plugins/google-analytics-for-wordpress/" class="rank-math-link">b</a></span><span class="s2"><a href="https://wordpress.org/plugins/google-analytics-for-wordpress/" class="rank-math-link">o</a></span><span class="s2"><a href="https://wordpress.org/plugins/google-analytics-for-wordpress/" class="rank-math-link">a</a></span><span class="s2"><a href="https://wordpress.org/plugins/google-analytics-for-wordpress/" class="rank-math-link">r</a></span><span class="s2"><a href="https://wordpress.org/plugins/google-analytics-for-wordpress/" class="rank-math-link">d</a></span><span class="s2"><a href="https://wordpress.org/plugins/google-analytics-for-wordpress/" class="rank-math-link"> </a></span><span class="s2"><a href="https://wordpress.org/plugins/google-analytics-for-wordpress/" class="rank-math-link">P</a></span><span class="s2"><a href="https://wordpress.org/plugins/google-analytics-for-wordpress/" class="rank-math-link">l</a></span><span class="s2"><a href="https://wordpress.org/plugins/google-analytics-for-wordpress/" class="rank-math-link">u</a></span><span class="s2"><a href="https://wordpress.org/plugins/google-analytics-for-wordpress/" class="rank-math-link">g</a></span><span class="s2"><a href="https://wordpress.org/plugins/google-analytics-for-wordpress/" class="rank-math-link">i</a></span><a href="https://wordpress.org/plugins/google-analytics-for-wordpress/" class="rank-math-link"><span class="s2">n</span></a>”, in which case, you will simply need to enter your “Tracking ID” in the plugin’s “Settings” menu from within the WordPress dashboard.</span></p>
+
+
+
+<blockquote class="wp-block-quote"><p class="p2"><span class="s1">To find your tracking code and or ID, just log into your Google Analytics dashboard, and click on the “Admin” menu. Then, click on “Tracking Info” in the “Property” column.</span></p></blockquote>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img src="https://www.oddodesign.com/wp-content/uploads/2020/01/ga-trackingcode.png" alt="" class="wp-image-12630" width="411" height="400" srcset="https://www.oddodesign.com/wp-content/uploads/2020/01/ga-trackingcode.png 411w, https://www.oddodesign.com/wp-content/uploads/2020/01/ga-trackingcode-300x292.png 300w" sizes="(max-width: 411px) 100vw, 411px" /></figure></div>
+
+
+
+<p class="p2"><span class="s1">Once your tracking code/ID has been installed and is working, it may take a week or so before the following reports and metrics become useful. Otherwise, if you&#8217;ve already been tracking data via Google Analytics, let&#8217;s dive in!</span></p>
+
+
+
+<p class="p2">Once you log in to Google Analytics, you&#8217;ll want to click on the website you are tracking from the home screen, or, in some cases, just click on the &#8220;Reporting&#8221; menu at the top of the screen. Just make sure you are viewing <em>your</em> website, since it is possible to include multiple websites within your Google Analytics account.</p>
+
+
+
+<h2 class="p3"><span class="s1">1. How Many People Visited Our Website?</span></h2>
+
+
+
+<ol class="ol1"><li class="li2"><span class="s1">Go to menu: Audience -&gt; Overview</span></li><li class="li2"><span class="s1">Set the date range (upper right corner)</span></li><li class="li2"><span class="s1">See the “Users” sparkline chart</span></li></ol>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img src="https://www.oddodesign.com/wp-content/uploads/2020/01/ga-traffic.png" alt="" class="wp-image-12631" width="411" height="400" srcset="https://www.oddodesign.com/wp-content/uploads/2020/01/ga-traffic.png 411w, https://www.oddodesign.com/wp-content/uploads/2020/01/ga-traffic-300x292.png 300w" sizes="(max-width: 411px) 100vw, 411px" /></figure></div>
+
+
+
+<h3 class="p5"><span class="s1">Report Insights</span></h3>
+
+
+
+<p class="p2">Assuming you can convert 5 out of every 100 visitors to paying customers, subscribers, etc., are your promotional tactics successfully driving enough traffic to your website to reach your sales goals?</p>
+
+
+
+<h3 class="p2"><span class="s1">Tip</span></h3>
+
+
+
+<p class="p2"><span class="s1">Some of your visits may be from you and/or your employees visiting the site. There are ways to filter employees out of these reports using filters (Admin -&gt; Account -&gt; All Filters).</span></p>
+
+
+
+<h2 class="p4"><span class="s1">2. How Did Our Visitors Find Our Website?</span></h2>
+
+
+
+<ol class="ol1"><li class="li2"><span class="s1">Go to menu: Acquisition -&gt; Overview</span></li><li class="li2"><span class="s1">Set the date range (upper right corner)</span></li><li class="li2"><span class="s1">See the “Acquisition” table subhead</span></li></ol>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img src="https://www.oddodesign.com/wp-content/uploads/2020/01/ga-referrer.png" alt="" class="wp-image-12629" width="411" height="400" srcset="https://www.oddodesign.com/wp-content/uploads/2020/01/ga-referrer.png 411w, https://www.oddodesign.com/wp-content/uploads/2020/01/ga-referrer-300x292.png 300w" sizes="(max-width: 411px) 100vw, 411px" /></figure></div>
+
+
+
+<h3 class="p5"><span class="s1">Report Insights</span></h3>
+
+
+
+<p class="p2"><span class="s1">Which channels seem to yield the greatest amount of <em>quality</em> traffic? Should you invest more or less time/money on any particular channel?</span></p>
+
+
+
+<h3 class="p2"><span class="s1">Tip</span></h3>
+
+
+
+<p class="p2"><span class="s1">Click on the “Social” text link to see how much traffic is coming from Facebook, Linkedin, Twitter, etc.</span></p>
+
+
+
+<h2 class="p4"><span class="s1">3. Which Pages are Most/Least Popular?</span></h2>
+
+
+
+<ol class="ol1"><li class="li2"><span class="s1">Go to menu: Behavior -&gt; Site Content -&gt; All Pages</span></li><li class="li2"><span class="s1">Set the date range (upper right corner)</span></li><li class="li2"><span class="s1">See the “Page” column</span></li></ol>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img src="https://www.oddodesign.com/wp-content/uploads/2020/01/ga-popularity1.png" alt="" class="wp-image-12628" width="411" height="400" srcset="https://www.oddodesign.com/wp-content/uploads/2020/01/ga-popularity1.png 411w, https://www.oddodesign.com/wp-content/uploads/2020/01/ga-popularity1-300x292.png 300w" sizes="(max-width: 411px) 100vw, 411px" /></figure></div>
+
+
+
+<h3 class="p5"><span class="s1">Report Insights</span></h3>
+
+
+
+<p class="p2"><span class="s1">Are mission-critical (i.e., money making) pages, particularly those associated with important calls-to-action (e.g., “buy now”; “request a quote”; “subscribe now”, etc.), among the most/least popular pages? Is there something that is preventing your visitors from easily finding these pages?</span></p>
+
+
+
+<h3 class="p2"><span class="s1">Tip</span></h3>
+
+
+
+<p class="p2"><span class="s1">You can set up “Goals” in Google Analytics to better track your&nbsp;conversion rate&nbsp;(Admin -&gt; View -&gt; Filters).&nbsp;</span></p>
+
+
+
+<h2 class="p4"><span class="s1">4. What Did Visitors Click On When They Arrived?</span></h2>
+
+
+
+<ol class="ol1"><li class="li2"><span class="s1">Go to menu: Behavior -&gt; In-Page Analytics</span></li><li class="li2"><span class="s1">Set the date range (upper right corner)</span></li><li class="li2"><span class="s1">Review click percentages in orange bubbles</span></li></ol>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img src="https://www.oddodesign.com/wp-content/uploads/2020/01/ga-inpage.png" alt="" class="wp-image-12626" width="411" height="400" srcset="https://www.oddodesign.com/wp-content/uploads/2020/01/ga-inpage.png 411w, https://www.oddodesign.com/wp-content/uploads/2020/01/ga-inpage-300x292.png 300w" sizes="(max-width: 411px) 100vw, 411px" /></figure></div>
+
+
+
+<h3 class="p5"><span class="s1">Report Insights</span></h3>
+
+
+
+<p class="p2"><span class="s1">What can you do&nbsp;to increase the percentages of clicks on your most important calls-to-action? Change the button label? Make the offer more appealing?&nbsp;Move it closer to the top of the page?</span></p>
+
+
+
+<h3 class="p2"><span class="s1">Tip</span></h3>
+
+
+
+<p class="p2"><span class="s1">If you are using the Chrome or Firefox browser, and you have trouble loading the report, click the shield icon in the address bar to allow insecure content, or, use the full-view option.</span></p>
+
+
+
+<h2 class="p4"><span class="s1">How Many Visitors Used Mobile Devices to Visit Our Website?</span></h2>
+
+
+
+<ol class="ol1"><li class="li2"><span class="s1">Go to menu: Audience -&gt; Mobile —&gt; Overview</span></li><li class="li2"><span class="s1">Set the date range (upper right corner)</span></li><li class="li2"><span class="s1">Review the “Mobile Device Info” column</span></li></ol>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img src="https://www.oddodesign.com/wp-content/uploads/2020/01/ga-mobile.png" alt="" class="wp-image-12627" width="411" height="400" srcset="https://www.oddodesign.com/wp-content/uploads/2020/01/ga-mobile.png 411w, https://www.oddodesign.com/wp-content/uploads/2020/01/ga-mobile-300x292.png 300w" sizes="(max-width: 411px) 100vw, 411px" /></figure></div>
+
+
+
+<h3 class="p5"><span class="s1">Report Insights</span></h3>
+
+
+
+<p class="p2"><span class="s1">Are most of your visitors using a mobile device or tablet to visit your website? Is this trend increasing? Should you improve the experience for these visitors?</span></p>
+
+
+
+<h3 class="p2"><span class="s1">Tip</span></h3>
+
+
+
+<p class="p2"><span class="s1">Go to menu: Audience -&gt; Mobile -&gt; Devices for more specific information (e.g., number of visitors using iPhones to access your website).</span></p>
+
+
+
+<p class="p2"><span class="s1">By the way, most of these reports allow you to create &#8220;shortcuts&#8221; for easy access when you visit again. You&#8217;ll find this feature just under the title of each report in a small menu. Just click on &#8220;Shortcut&#8221;.</span></p>
+
+
+
+<p class="p2"><span class="s1">Hopefully, the information I’ve provided here will get your started with&nbsp;viewing your stats on a regular basis, and taking smart, proactive measures to improve your visitors&#8217; experience and your online marketing efforts.&nbsp;</span></p>
+<p>The post <a rel="nofollow" href="https://www.oddodesign.com/getting-started-with-google-analytics-for-non-technical-users/">Getting Started with Google Analytics for Non-Technical Users</a> appeared first on <a rel="nofollow" href="https://www.oddodesign.com">Oddo Design</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.oddodesign.com/getting-started-with-google-analytics-for-non-technical-users/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Your Website: How to Avoid the Post-Launch Blues.</title>
+		<link>https://www.oddodesign.com/your-website-how-to-avoid-the-post-launch-blues/</link>
+					<comments>https://www.oddodesign.com/your-website-how-to-avoid-the-post-launch-blues/#respond</comments>
+		
+		<dc:creator><![CDATA[Tommy Oddo]]></dc:creator>
+		<pubDate>Mon, 22 Apr 2013 15:19:45 +0000</pubDate>
+				<category><![CDATA[Marketing]]></category>
+		<guid isPermaLink="false">http://www.oddo-v2.dev/?p=7764</guid>
+
+					<description><![CDATA[<p>After months of preparation and hard work, you <em>finally</em> have a website you're proud of. Surely, it will resonate with your target audience and deliver the results you have planned for.</p>
+<p>But the website goes live, and weeks later, you're disappointed.</p>
+<p>The post <a rel="nofollow" href="https://www.oddodesign.com/your-website-how-to-avoid-the-post-launch-blues/">Your Website: How to Avoid the Post-Launch Blues.</a> appeared first on <a rel="nofollow" href="https://www.oddodesign.com">Oddo Design</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>After months of preparation and hard work, you <em>finally</em> have a website you&#8217;re proud of. Surely, it will resonate with your target audience and deliver the results you have planned for.</p>
+
+
+
+<p>But the website goes live, and weeks later, you&#8217;re disappointed.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>You wonder why you haven&#8217;t heard from any customers, prospects, or readers. You assume it&#8217;s time to make some changes to your website, but have no idea how to edit it. And then, you wonder if anyone is actually visiting your website in the first place!</p></blockquote>
+
+
+
+<h2>Drive Traffic to Your Website</h2>
+
+
+
+<p>The first step to overcoming (or avoiding) your disappointment is to employ an ongoing and multi-faceted campaign to drive traffic to your website. This can be accomplished through blogging; social networking (Facebook, LinkedIn, Pinterest, etc.); search engine optimization; email; and even traditional forms of advertising and public relations.</p>
+
+
+
+<h2>Connect the Dots with Web Analytics</h2>
+
+
+
+<p>Next, you&#8217;ll want to use <a href="http://www.clicky.com">Clicky</a> or <a href="http://www.google.com/analytics/">Google Analytics</a> to help determine if and how your promotional efforts are paying off. For example, which marketing channels (e.g., Facebook, Google, Linkedin, etc.) are delivering quality visitors? Did you see a spike in traffic after running that pay-per-click ad campaign?</p>
+
+
+
+<h2><em id="__mceDel"></em>Keep Your Content Fresh</h2>
+
+
+
+<p>Hopefully, your web designer recommended and employed the use of a Content Management System like WordPress to make it easier for you to edit your website and publish content on a regular basis. Still it is wise to plan for some training and ongoing assistance from your web designer. Otherwise, the last thing your visitors will want to see is outdated information.</p>
+
+
+
+<h2>Optimize Performance with Regular &#8220;Tune-ups&#8221;</h2>
+
+
+
+<p>Many popular Content Management Systems like WordPress are free. However, they do require regular software updates to improve security and performance. You&#8217;ll also want to create a backup strategy in the event your website is hacked, or, if you need to revert to an earlier version. Again, you&#8217;ll want to work with a web designer or web developer who can take care of these things for you, on a regular basis.</p>
+
+
+
+<p>Hopefully, you will have read this post before you had your website created, but if not, all is not lost! A website is very dynamic in nature. Your business and marketing strategy will change over time, and you&#8217;ll continue to learn how to improve the experience for your visitors.</p>
+<p>The post <a rel="nofollow" href="https://www.oddodesign.com/your-website-how-to-avoid-the-post-launch-blues/">Your Website: How to Avoid the Post-Launch Blues.</a> appeared first on <a rel="nofollow" href="https://www.oddodesign.com">Oddo Design</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.oddodesign.com/your-website-how-to-avoid-the-post-launch-blues/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
